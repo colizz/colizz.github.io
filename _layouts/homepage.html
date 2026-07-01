@@ -50,26 +50,30 @@
         <br>
         {% endif %}
         {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        <a class="header-text-link" href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
         <br>
         {% endif %}
+        {% comment %}
+        {% if site.tagline %}
+        <tagline><autocolor>Worked on the </autocolor><a class="header-text-link" href="https://cms.cern/" rel="noopener"><autocolor>CMS experiment</autocolor></a><autocolor> at the </autocolor><a class="header-text-link" href="https://home.cern/science/accelerators/large-hadron-collider/" rel="noopener"><autocolor>CERN Large Hadron Collider</autocolor></a></tagline>
+        <br>
+        {% endif %}
+        {% endcomment %}
         {% if site.email %}
         <email>{{ site.email }}</email>
         {% endif %}
 
-        <br>
-        <br>
         <div class="social-icons">
+        {% if site.inspirehep %}
+        <a style="margin: 0 5px 0 0" href="{{ site.inspirehep }}">
+          <span class="inspire-icon" aria-label="INSPIRE">iN</span>
+        </a>
+        {% endif %}
+
         {% if site.google_scholar %}
         <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
           <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
         </a>  
-        {% endif %}
-
-        {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
-        </a>
         {% endif %}
 
         {% if site.github_link %}
@@ -86,7 +90,7 @@
 
         {% if site.twitter %}
         <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-twitter"></i>
+          <span class="x-icon" aria-label="X">X</span>
         </a>
         {% endif %}
         </div>

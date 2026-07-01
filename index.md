@@ -2,22 +2,17 @@
 layout: homepage
 ---
 
-## About Me
+Hi, I'm Congqiao Li (<span class="zh-name">李聪乔</span>).<br>
+I worked on the [CMS experiment](https://cms.cern/) at the [CERN Large Hadron Collider](https://home.cern/science/accelerators/large-hadron-collider/).<br>
+I build new ways of doing collider physics with AI.
 
-I am a Ph.D. student at ...
+## Contributions
 
-## Research Interests
+A few things I'm proud of:
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **GloParT at CMS:** [CMS results]() (**Sophon** for hep-ph audience: [paper](https://arxiv.org/abs/2405.12972) / [slides](https://agenda.infn.it/event/37093/contributions/235009))
+- **Jet-free approach for HH→4b and beyond:** [paper](https://arxiv.org/abs/2508.15048) / [slides](https://indico.cern.ch/event/1399335/contributions/6384808)
 
-## News
+## Publications
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
-
-{% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %}
+Full publication list via <span class="inspire-icon inline-icon" aria-label="INSPIRE">iN</span> / <i class="ai ai-google-scholar inline-icon"></i> buttons.
