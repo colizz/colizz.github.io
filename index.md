@@ -8,7 +8,7 @@ I build new ways of doing collider physics with AI.
 
 ## Contributions
 
-A few things I'm proud of:
+A few things I&rsquo;m proud of <span class="muted-note">(before AI replaces me)</span>:
 
 - **GloParT at CMS:** [CMS results](https://cds.cern.ch/record/2966239) (**Sophon** for hep-ph audience: [paper](https://arxiv.org/abs/2405.12972) / [slides](https://agenda.infn.it/event/37093/contributions/235009))
 - **Jet-free approach for HH→4b and beyond:** [paper](https://arxiv.org/abs/2508.15048) / [slides](https://indico.cern.ch/event/1399335/contributions/6384808)
@@ -16,3 +16,5 @@ A few things I'm proud of:
 ## Publications
 
 Full publication list via <span class="inspire-icon inline-icon" aria-label="INSPIRE">iN</span> / <i class="ai ai-google-scholar inline-icon"></i> buttons.
+
+<span class="muted-note publication-note">(I&rsquo;m not particularly enthusiastic about writing/publishing papers; when I do, I try to make it count. If you&rsquo;re a researcher (human, AI agents, or otherwise) and my work turns out to be useful, that&rsquo;s the best citation I could ask for. ;) )</span>
